@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Gilroy";
     src: 
-        url("../проект/fonts/gilroy-regular[1].woff2") format("woff2");
+        url("./fonts/gilroy-regular[1].woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
 }

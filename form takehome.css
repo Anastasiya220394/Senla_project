@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Gilroy";
     src: 
-        url("../проект/fonts/gilroy-regular[1].woff2") format("woff2");
+        url("./fonts/gilroy-regular[1].woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
 }
@@ -32,41 +32,24 @@ body {
     font-weight: 600;
     line-height: 24px;
     font-size: 28px;
-  }
-   
+  } 
   .line {
     border: 1px solid #FFE28E;
     transform: rotate(180deg);
     width: 445px;
-    margin-left: 0px;
-    margin-bottom: 16px;
-    
+    margin-left: 0px; 
   }
-
-.h2 {
-    width: 73px;
-height: 32px;
-font-weight: 500;
-font-size: 22px;
-line-height: 20px;
-color: #242424;
-}
-  
   .info {
     font-family: Gilroy;
     font-style: normal;
     font-size: 16px;
-line-height: 22px;
+line-height: 140%;
 margin-bottom: 32px;
-
-
+color: #FFE28E;
 width: 402px;
 height: 67px;
-
 color: #6B6B6B;
-
   }
-
   .nad_polem_fio {
     font-weight: 500;
 font-size: 14px;
@@ -127,7 +110,7 @@ opacity: 0.7;
   .zamechaniya {
     width:445px;
     height:76px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     border: 1px solid #D6D6D6;
 box-sizing: border-box;
 border-radius: 2px;
@@ -140,15 +123,21 @@ opacity: 0.7;
 
   }
 
-
+  .telinfo {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #474747;
+    margin-bottom: 32px;
+  }
 
   .отправить {
     background: #FFE28E;
     border-radius: 58px;
-    width: 234px;
+    width: 168px;
     height: 42px;
     margin-bottom: 30px;
-    margin-right: 68px;
+    margin-right: 134px;
     font-weight: 500;
 font-size: 20px;
 line-height: 40px;

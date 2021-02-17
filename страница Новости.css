@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../проект/fonts/gilroy-regular[1].woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Gilroy, Arial, sans-serif;
+}
+.news_h3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    width: 368px;
+    height: 32px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 54px;
+}
+.help_hvostik {
+    margin-left: 304px;
+    display: flex;
+    margin-top: 40px;
+}
+.help_hvostik_1 {
+    margin-left: 35px;
+    width: 603px;
+    height: 140px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+.hvostik_img {
+    width: 140px;
+    height: 140px;
+}
+.help_small_dogs {
+    margin-left: 304px;
+    display: flex;
+    margin-top: 40px;
+}
+.help_small_dogs_1 {
+    width: 603px;
+    height: 140px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-left: 35px;
+}
+.show_news {
+    height: 40px;
+    margin-left: 304px;
+    margin-top: 24px;
+    margin-bottom: 53px;
+}
+.show_news a {
+    color: #AD7F00;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+    border-bottom: 1px solid #AD7F00;
+}
+.show_news a:hover {
+    color: #523C00;
+    text-decoration: none;
+    border-bottom: 1px solid #523C00;
+}
+.show_news a:active {
+    color: #F6B400;
+    text-decoration: none;
+    border-bottom: 1px solid #F6B400; 
+}
+.arrow {
+    margin-left: 18px;
+    margin-bottom: 28px;
+}
+.arrow_news {
+    display: flex;
+}

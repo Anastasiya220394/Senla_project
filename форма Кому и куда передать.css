@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Gilroy";
+    src: 
+        url("../проект/fonts/gilroy-regular[1].woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+strong{
+    font-weight:bold;
+   }
+
+body {
+    margin-left: 40px;
+}
+  .h1 {
+    font-family: "Gilroy-medium", "Arial", sans-serif;
+    color: #B3B3B3;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 28px;
+    margin-bottom: 8px;
+    width: 421px;
+  height: 36px;
+  }
+   
+  .line {
+    border: 1px solid #FFE28E;
+    transform: rotate(180deg);
+    width: 445px;
+    margin-left: 0px;
+    
+  }
+
+  .about_help {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    width: 445px;
+height: 114px;
+margin-top: 16px;
+margin-bottom: 32px;
+  }
+
+  .about_help_1 {
+      margin-bottom: 10px;
+  }
+  .contacts {
+    width: 445px;
+    height: 97px;
+    font-size: 16px;
+line-height: 140%;
+color: #242424;
+margin-bottom: 30px;
+  }
+
+  .Olga {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }

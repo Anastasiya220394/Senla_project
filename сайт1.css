@@ -1,0 +1,1966 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../проект/fonts/gilroy-regular[1].woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../проект/fonts/gilroy-bold[1].woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../проект/fonts/gilroy-semibold[1].woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+strong {
+    font-weight: bold;
+}  
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+body {
+    font-family: Gilroy, Arial, sans-serif;
+    max-width: 1920px;
+    background: #F6F6F6;
+}
+header {
+    width: 1366px;
+    margin: 0 auto;
+}
+section {
+    margin: 0 auto; 
+}
+.wrapper {
+    position: relative;
+    width: 1256px;
+    margin: 0 auto;
+}
+.main_dog {
+    position: absolute;
+    right: 55px;
+    top: 0px;
+    max-width: 718px;
+    height: auto;
+    width: 100%; 
+    animation-duration: 3s;
+    animation-name: slideleft;  
+}
+
+@keyframes slideleft {
+    0% { opacity: 0; -webkit-transform: translateX(-100%); }   
+  100% { opacity: 1; -webkit-transform: translateX(0); }
+}
+
+.main_cat {
+    position: absolute;
+    width: 483px;
+    max-width: 100%;
+    height: 469px;
+    left: 550px;
+    top: 480px;
+    -webkit-animation: slide-down .8s linear;
+}
+
+@-webkit-keyframes slide-down {
+    0% { opacity: 0; -webkit-transform: translateY(100%); }   
+  100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+
+.main_budu {
+    position: absolute;
+    width: 599px;
+    height: 192px;
+    left: -55px;
+    top: 374px;
+    opacity: 0.5;
+    -webkit-animation: slide-down .8s linear;
+}
+.main_best { 
+    position: absolute;
+    width: 534px;
+    height: 107px;
+    left: -57px;
+    top: 566px;
+    opacity: 0.6;
+    -webkit-animation: slide-down .8s linear;
+}
+.main_friend {
+    position: absolute;
+    width: 474px;
+    height: 107px;
+    left: 241px;
+    top: 671px;
+    opacity: 0.5;
+    -webkit-animation: slide-down .8s linear;
+}
+header {
+    overflow: hidden;
+    width: 1366px;
+    max-width: 100%;
+    min-height: 88px;
+}
+nav {
+    width: 1049px;
+    height: 49px;
+    max-width: 100%;
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-left: 110px;
+    position: relative;
+    margin-bottom: 105px;
+}
+.nav_list {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 54px;
+}
+    .nav_item {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 54px;
+}
+    .social_links {
+    display: flex;
+    margin-right: -50px;
+    margin-top: 54px;
+}
+.list_item {
+    margin-right: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.list_item a {
+    text-decoration: none;
+    width: fit-content;
+    color: black;
+}
+.list_item a:hover {
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.list_item a:active {
+    color: #6B6B6B;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.list_item__social {
+    margin-right: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.list_item__social:hover {
+    background: #FFD458;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(113, 113, 113, 0.2);
+}
+.list_item__social:active {
+    background: #FFBC00;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+}
+.list_item__social:focus {
+    border: 3px solid #6B6B6B;
+}
+.spasi {
+    position: relative;
+    margin-left: 110px;
+    margin-bottom: 430px;
+}
+.spasi_div {
+    width: 1256px;
+    margin: 0 auto;
+}
+.save_title {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 4.5em;
+   line-height: 87px;
+   max-width: 659px;
+   height: 77px;
+   width: 100%;
+}
+.content__spasi {
+    width: 45%;
+    max-width: 100%;
+}
+.save_title__text1 {
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 18px;
+   color: #6B6B6B;
+   padding-bottom: 10px;
+}
+.save_title__text2 {
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 140%;
+   color: #474747;
+   padding-bottom: 30px;
+   width: 659px;
+   height: 44px;
+}
+.save_title__text3 {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   width: 415px;
+   color: #C78100;
+}
+.wanthelp {
+    background: #FBC832;
+    border-radius: 58px;
+    width: 182px;
+    height: 42px;
+    margin-top: 60px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+.wanthelp:hover {
+    background-color: #FFDF86;
+}
+.wanthelp:active {
+    background-color: #FFBB0C;
+}
+.wanthelp:disabled {
+    background: #FFE28E;
+    border-radius: 58px;
+    color: #6B6B6B;
+}
+.wanthelp:focus {
+    background: #FBC832;
+    border: 3px solid #6B6B6B;
+    border-radius: 58px;
+}
+.big_hearts {
+    width: 464px;
+    height: 94px;
+    max-width: 100%;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    color: #C78100;
+    text-align: center;
+    margin-bottom: 28px;  
+}
+.big_hearts__text1 {
+    color: #242424;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    width: 466px;
+    height: 155px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.big_hearts__text2 {
+    color: #242424;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    width: 466px;
+    height: 88px;
+}
+.text_flex {
+    display: flex;
+    margin-bottom: 150px;
+}
+.main_figure1 {
+    position: absolute;
+    width: 343px;
+    height: 521px;
+    left: 0px;
+    top: 910px;
+}
+.main_figure2 {
+    position: absolute;
+    width: 521px;
+    height: 521px;
+    left: 78px;
+    top: 910px;
+}
+.main_cat_figure {
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    left: 392px;
+    top: 1215px;
+    z-index: 2;
+    border: 8px solid #EEBF3A;
+    border-radius: 50%;
+}
+.text3 {
+    margin-left: 180px;
+}
+.dog_lapa {
+    width: 464px;
+    height: 464px;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+    left: 110px;
+    top: -40px;
+    margin-right: 50px; 
+}
+.how_help {
+    text-align: center;
+    height: 24px;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 24px;
+    margin-bottom: 47px;
+    color: #242424;
+}
+.variants_to_help {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    margin-left: 118px;
+    margin-right: 118px;
+    -webkit-animation: slide-down .8s linear;
+}
+.images_help_link:hover {
+    background: #FFFFFF;
+    border: 2px solid #FFC41E;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px #CCCCCC;
+}
+.images_help_link:active {
+    background: #F8ECCB;
+    border: 2px solid #FFC41E;
+    box-sizing: border-box;
+}
+.text_variants_to_help {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 118px;
+    margin-right: 118px;
+    margin-bottom: 150px;
+    -webkit-animation: slide-down .8s linear;
+}
+.text_help {
+    width: 166px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #474747;
+}
+.line_img_line {
+    display: flex;
+}
+.line1 {
+
+    width: 576px;
+    height: 1px;
+    margin-left: 0px;
+    background-color: #FFC41E;
+    transform: rotate(180deg);
+    border: none;
+}
+.line2 {
+    width: 576px;
+    height: 1px;
+    margin-right: 0px;
+    background-color: #FFC41E;
+    transform: rotate(180deg);
+    border: none;
+}
+.dog_with_home {
+    position: absolute;
+    top: 1990px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.house_and_overexposure {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 72px;
+    margin-top: 142px;
+}
+.love_and_home {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin-left: 135px;
+}
+.about_home {
+    width: 389px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    margin-left: 135px;
+}
+.overexposure {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin-left: -50px;
+}
+.about_overexposure {
+    width: 389px;
+    font-size: 16px;
+    line-height: 140%; 
+    color: #242424;
+    margin-left: -50px;
+}
+.our_animals {
+    text-align: center;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin-bottom: 32px;
+    margin-left: 110px;
+}
+.block_anim {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: baseline;
+    margin-right: 111px;
+}
+.block_anim2 {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: baseline;
+    margin-right: 111px;
+}
+.dog1 {
+    width: 368px;
+    height: 695px;
+    margin-left: 110px;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #FFFFFF;
+    margin-bottom: 44px;
+}
+.dog_monik {
+    position: relative;
+    height: 356px;
+    left: 4.62%;
+    right: 4.35%;
+    top: 16px;
+}
+.name_animal {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    color: #242424;
+}
+.descrip_animal {
+    margin-top: 18px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #6B6B6B;
+}
+.full_descrip_animal {
+   margin-top: 6px;
+   margin-left: 15px;
+   margin-bottom: 35px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 20px;
+   color: #242424;
+   width: 335px;
+   height: 95px;
+}
+.button_to_home {
+    margin-left: 80px;   
+    background: #FBC832;
+    border-radius: 58px;
+    width: 209px;
+    height: 42px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 17px;
+}
+.button_to_home:hover {
+    background-color: #FFDF86;
+}
+.button_to_home:active {
+    background-color: #FFBB0C;
+}
+.button_to_home:disabled {
+    background: #FFE28E;
+    border-radius: 58px;
+    color: #6B6B6B;
+}
+.button_to_home:focus {
+    background: #FBC832;
+    border: 3px solid #6B6B6B;
+    border-radius: 58px;
+}
+.button_to_overex {
+    margin-left: 36px;
+    right: 34px;
+    top: 635px;
+    border: 2px solid #FFC41E;
+    box-sizing: border-box;
+    border-radius: 58px;
+    width: 296px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+.button_to_overex:hover {
+    background: #FFFFFF;
+    border: 3px solid #FFBC00;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px #CCCCCC;
+    border-radius: 58px;
+}
+.button_to_overex:active {
+    background: rgba(255, 196, 30, 0.2);
+    border: 3px solid #FFBC00;
+    box-sizing: border-box;
+    border-radius: 58px;
+}
+.button_to_overex:disabled {
+    border: 2px solid #B3B3B3;
+    box-sizing: border-box;
+    border-radius: 58px;
+    color: #6B6B6B;
+}
+.cat1 {
+    width: 368px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 695px;
+    margin-bottom: 44px;
+}
+.cat_lunatik {
+    position: relative;
+    height: 356px;
+    left: 4.62%;
+    right: 4.35%;
+    top: 16px;
+}
+.dog2 {
+    width: 368px;
+    height: 695px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 44px;
+}
+.dog_gerda {
+    position: relative;
+    height: 356px;
+    left: 4.62%;
+    right: 4.35%;
+    top: 16px;
+}
+.cat2 {
+    width: 368px;
+    height: 695px;
+    margin-left: 110px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.cat_saki {
+    position: relative;
+    height: 356px;
+    left: 4.62%;
+    right: 4.35%;
+    top: 16px;
+}
+.dog3 { 
+    width: 368px;
+    height: 695px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.dog_monika {
+    position: relative;
+    height: 356px;
+    left: 4.62%;
+    right: 4.35%;
+    top: 16px;
+}
+.dog4 { 
+    width: 368px;
+    height: 695px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.dog_adreantino {
+    position: relative;
+    height: 356px;
+    left: 4.62%;
+    right: 4.35%;
+    top: 16px;
+}
+.prosmotr_vseh {  
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+.prosmotr_vseh a {
+    color: #AD7F00;
+    text-decoration: none;
+    border-bottom: 1px solid #AD7F00;
+}
+.prosmotr_vseh a:hover {
+    color: #523C00;
+    text-decoration: none;
+    border-bottom: 1px solid #523C00;
+}
+.prosmotr_vseh a:active {
+    color: #F6B400;
+    text-decoration: none;
+    border-bottom: 1px solid #F6B400;  
+}
+.prosmotr_img {
+    margin-left: 16px;
+}
+.text_posty {
+    width: 583px;
+    height: 48px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 205px;
+    margin-right: 38px;
+}
+.link_seti {
+    display: flex;
+    margin-top: 65px;
+    margin-left: 110px; 
+    margin-bottom: 125px;
+}
+.icon_social {
+    margin-right: 32px;
+}
+.icon_social:hover {
+    background: #FFFFFF;
+    border: 2px solid #FFC41E;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px #CCCCCC;
+}
+.icon_social:active {
+    background: #F8ECCB;
+    border: 2px solid #FFC41E;
+    box-sizing: border-box;
+}
+.hand_money {
+    position: absolute;
+    top: 4205px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;   
+}
+.finance_block {
+    margin: 0 auto;
+}
+.finance {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    width: 758px;
+    height: 32px;
+    text-align: center;
+    margin-left: 304px;
+    margin-top: 103px;
+}
+.finance_text {
+    width: 758px;
+    height: 55px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #6B6B6B;
+    margin-left: 304px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.info_rekvizity {
+    display: flex;
+}
+.schet {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    width: 389px;
+    height: 24px;
+    margin-bottom: 24px;
+}
+.rekvizity {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    width: 389px;
+    height: 164px;
+}
+.info_rekvizity__block {
+    margin-left: 284px;
+    margin-right: 97px;
+}
+
+.platezh {
+    background: #FBC832;
+    border-radius: 58px;
+    width: 223px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 160px;
+}
+.platezh a {
+    text-decoration: none;
+    color: black;
+}
+.platezh:hover {
+    background-color: #FFDF86;
+}
+.platezh:active {
+    background-color: #FFBB0C;
+}
+.platezh:disabled {
+    background: #FFE28E;
+    border-radius: 58px;
+    color: #6B6B6B;
+}
+.platezh:focus {
+    background: #FBC832;
+    border: 3px solid #6B6B6B;
+    border-radius: 58px;
+}
+ol {
+    list-style: decimal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    width: 389px;
+    height: 218px;
+}
+.crest_no_crug {
+    position: absolute;
+    top: 4890px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.h3_style__help {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin-bottom: 24px;
+    margin-left: 402px;
+    margin-top: 103px;
+}
+.food {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    margin-left: 402px;
+    margin-bottom: 40px;
+    width: 660px;
+    height: 156px;
+}
+.food_help__got {
+    color: #6B6B6B;
+    font-size: 16px;
+    line-height: 140%;
+}
+.food_list {
+    list-style: disc;
+}
+.drugs {
+    width: 660px;
+    height: 66px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    margin-left: 402px;
+    margin-bottom: 40px;
+}
+.other_things {
+    width: 678px;
+    height: 164px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    margin-left: 402px;
+}
+.other_things__list {
+    list-style: disc;
+}
+.kuda_peredat {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 402px;
+    margin-bottom: 135px;
+}
+.kuda_peredat a {
+    color: #AD7F00;
+    text-decoration: none;
+    border-bottom: 1px solid #AD7F00;
+}
+.kuda_peredat a:hover {
+    color: #523C00;
+    text-decoration: none;
+    border-bottom: 1px solid #523C00;
+}
+.kuda_peredat a:active {
+    color: #F6B400;
+    text-decoration: none;
+    border-bottom: 1px solid #F6B400;    
+}
+.car_no_crug {
+    position: absolute;
+    top: 5915px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.auto_help {
+    width: 680px;
+    height: 66px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    margin-left: 402px;
+    margin-bottom: 24px;
+}
+.zayavka {
+    background: #FBC832;
+    border-radius: 58px;
+    width: 223px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 402px;
+    margin-bottom: 90px;
+}
+.zayavka:hover {
+    background-color: #FFDF86;
+}
+.zayavka:active {
+    background-color: #FFBB0C;
+}
+.zayavka:disabled {
+    background: #FFE28E;
+    border-radius: 58px;
+    color: #6B6B6B;
+}
+.zayavka:focus {
+    background: #FBC832;
+    border: 3px solid #6B6B6B;
+    border-radius: 58px;
+}
+.lapa_no_crug {
+    position: absolute;
+    top: 6315px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.volunteer_block {
+    display: flex;
+}
+.main_figure3 {
+    position: absolute;
+    width: 357px;
+    height: 521px;
+    left: 0px;
+    top: 6470px;
+}
+.main_figure4 {
+    position: absolute;
+    width: 522px;
+    height: 522px;
+    left: 94px;
+    top: 6470px;
+}
+.text_volunteer {
+    margin-left: 77px;
+}
+.about_volunteer {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    width: 466px;
+    height: 182px;
+}
+.image_dog__volunteer {
+    width: 464px;
+    height: 464px;
+    margin-right: 77px;
+    margin-bottom: 130px;
+    position: relative;
+    margin-left: 129px;
+    margin-top: 115px;
+}
+.h3_style__volunteer {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    width: 466px;
+    height: 24px;
+    margin-bottom: 24px;
+    margin-top: 166px;
+}
+.zayavka_2 {
+    background: #FBC832;
+    border-radius: 58px;
+    width: 223px;
+    height: 42px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 24px;
+    margin-bottom: 216px;
+}
+.zayavka_2:hover {
+    background-color: #FFDF86;
+}
+.zayavka_2:active {
+    background-color: #FFBB0C;
+}
+.zayavka_2:disabled {
+    background: #FFE28E;
+    border-radius: 58px;
+    color: #6B6B6B;
+}
+.zayavka_2:focus {
+    background: #FBC832;
+    border: 3px solid #6B6B6B;
+    border-radius: 58px;
+}
+.news_h3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    width: 368px;
+    height: 32px;
+    margin: 0 auto;
+    text-align: center;
+}
+.help_hvostik {
+    margin-left: 304px;
+    display: flex;
+    margin-top: 40px;
+}
+.help_hvostik_1 {
+    margin-left: 35px;
+    width: 603px;
+    height: 140px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+.hvostik_img {
+    width: 140px;
+    height: 140px;
+}
+.help_small_dogs {
+    margin-left: 304px;
+    display: flex;
+    margin-top: 40px;
+}
+.help_small_dogs_1 {
+    width: 603px;
+    height: 140px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    margin-left: 35px;
+}
+.show_news {
+    height: 40px;
+    margin-left: 304px;
+    margin-top: 24px;
+    margin-bottom: 109px;
+}
+.show_news a {
+    color: #AD7F00;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+    border-bottom: 1px solid #AD7F00;
+}
+.show_news a:hover {
+    color: #523C00;
+    text-decoration: none;
+    border-bottom: 1px solid #523C00;
+}
+.show_news a:active {
+    color: #F6B400;
+    text-decoration: none;
+    border-bottom: 1px solid #F6B400; 
+}
+.content_about_us {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    width: 680px;
+    height: 96px;
+    margin-top: 24px;
+    margin-left: 402px;
+}
+.contacts_h3 {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-left: 402px;
+}
+.contacts {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    width: 680px;
+    height: 131px;
+    margin-top: 24px;
+    margin-left: 402px;
+}
+.link_contacts {
+    margin-left: 402px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6B6B6B;
+    height: 22px;
+}
+.icons_style2 {
+    display: flex;
+    margin-left: 402px;
+    margin-top: 16px;
+    margin-bottom: 54px;
+}
+.icon_social2 {
+    margin-right: 32px;
+}
+.icon_social2:hover {
+    background: #FFFFFF;
+    border: 2px solid #FFC41E;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px #CCCCCC;
+}
+.icon_social2:active {
+    background: #F8ECCB;
+    border: 2px solid #FFC41E;
+    box-sizing: border-box;
+}
+.footer_dog {
+    width: 1366px;
+    height: 741px;
+}
+.main_figure7 {
+    position: absolute;
+    top: 8495px;
+    width: 89px;
+    height: 89px;
+    left: 467px;
+}
+.text_thanks {
+    position: absolute;
+    top: 8440px;
+    width: 346px;
+    height: 154px;
+    left: 134px;
+}
+.main_figure6 {
+    position: absolute;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    mix-blend-mode: soft-light;
+    left: 0px;
+    top: 8250px;
+}
+.footer {
+    display: flex; 
+    margin-top: 40px;
+    margin-left: 110px;
+    margin-bottom: 24px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-right: 110px;
+}
+.footer_list {
+    display: flex; 
+}
+.footer_list2 {
+    display: flex; 
+}
+.item_footer {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #474747;
+    margin-right: 40px;
+}
+.item_footer a {
+    color: #474747;
+    text-decoration: none;
+    border-bottom: 1px solid #474747;
+}
+.item_footer a:hover {
+    color: #AD7F00;
+    text-decoration: none;
+    border-bottom: 1px solid #AD7F00;
+}
+.item_footer a:active {
+    color: #474747;
+    text-decoration: none;
+    border-bottom: 1px solid #474747;
+}
+.item_footer2 {
+    color: #242424;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 40px;
+}
+.item_footer2 a {
+    color: #242424;
+    text-decoration: none;
+    border-bottom: 1px solid #242424;
+}
+.item_footer2 a:hover {
+    color: #AD7F00;
+    text-decoration: none;
+    border-bottom: 1px solid #AD7F00;
+}
+.item_footer2 a:active {
+    color: #474747;
+    text-decoration: none;
+    border-bottom: 1px solid #474747;
+}
+.info_organization {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #B3B3B3;
+    width: 184px;
+    height: 20px;
+    margin: 0 auto 16px;
+
+}
+
+
+
+
+
+
+@media (max-width:640px){
+.wrapper {
+    width: 360px;
+}
+nav {
+    width: 250px;
+}
+.main_dog {
+    content: url(../проект/картинки/dog\ 2.png);
+    height: 357px;
+    width: 225px;
+    left: 135px;  
+}
+.main_cat {
+    height: 157px;
+    left: 40%;
+    top: 251px;
+    width: 165px;
+}
+.main_budu {
+    width: 174.78px;
+    height: 55.8px;
+    left: 0.57px;
+    top: 270px;
+    opacity: 0.5;
+}
+.main_best {
+    width: 155.81px;
+    height: 31.1px;
+    left: -0.02px;
+    top: 325.8px;
+    opacity: 0.6;
+}
+.main_friend {
+    width: 138.3px;
+    height: 31.1px;
+    left: 78.68px;
+    top: 356.9px;
+    opacity: 0.5;
+}
+header {
+    height: 32px;
+}
+.social_links {
+    position: relative;
+    margin-left: 135px;
+    margin-top: 33px;
+}
+.list_item__social {
+    margin-right: 22px;
+}
+.list_item__social img {
+    width: 32px;
+    height: 32px;
+}
+.nav_list {
+     display: none;
+}
+.nav_item {
+     display: none;
+}
+.save_title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    width: 247px;
+    height: 36px;
+}
+.spasi {
+    margin-left: 30px;
+    margin-top: -13px;
+    margin-bottom: 83px;
+}
+.spasi_div {
+    width: 330px;
+}
+.save_title__text1 {
+    width: 211px;
+    height: 28px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    padding-bottom: 25px;
+}
+.save_title__text2 {
+    width: 158px;
+    height: 160px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+}
+.save_title__text3 {
+    width: 300px;
+    height: 76px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 60px;
+}
+.wanthelp {
+    width: 194px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 18px;
+    margin-left: 53px;
+}
+.dog_lapa {
+    content: url(../проект/картинки/dog\ lapa\ 360.png);
+    width: 251px;
+    height: 200px;
+    left: 0px;
+}
+.main_figure1 {
+    display: none;
+}
+.main_figure2 {
+    display: none; 
+}
+   .main_cat_figure {
+    display: none; 
+}
+.text_flex {
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.text3 {
+    margin: 0 auto;
+    margin-top: -15px;
+}
+.big_hearts {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+.big_hearts__text1 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    width: 300px;
+    height: 201px;
+    margin-bottom: 16px;
+}
+.big_hearts__text2 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    width: 300px;
+    height: 102px;
+}
+.how_help {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.variants_to_help {
+    margin: 0 auto;
+    display: grid;
+    height: 320px;
+    grid-template-rows: 172px 172px;
+    grid-template-columns: 160px 160px;
+    margin-left: 61px;
+}
+.images_help {
+    width: 80px;
+    height: 80px;  
+}
+.text_variants_to_help {
+    margin-top: -230px;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    margin-left: 30px;
+    grid-template-rows: 172px 172px;
+    margin-bottom: 58px;
+}
+.text_help {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    width: 142px;
+    height: 60px;
+}
+.text_help:last-child {
+    margin-left: 80px;
+}
+.images_help:nth-child(5) {
+    margin-left: 80px;
+}
+.line1 {
+    width: 109px;
+}
+.line2 {
+    width: 109px;
+}
+.dog_with_home {
+    height: 52px;
+    margin-top: -180px;
+}
+.house_and_overexposure {
+    margin-top: 39px;
+    display: block;
+    margin-bottom: 35px;
+}
+.love_and_home {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-left: 76px;
+    margin-bottom: 20px;
+}
+.about_home {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    margin: 0 auto;
+    width: 300px;
+    height: 140px;
+    margin-bottom: 32px;
+}
+.overexposure {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-left: 133px;
+    margin-bottom: 20px;
+}
+.about_overexposure {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    width: 300px;
+    height: 140px;
+    margin-bottom: 32px;
+    margin: 0 auto;
+}
+.block_anim2 {
+    display: none;
+}
+.our_animals {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.block_anim {
+    display: block;
+}
+.dog1 {
+    margin: 0 auto;
+    height: 613px;
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 22px;
+}
+.dog_monik {
+    height: 284px;
+    top: 12px;
+    margin-left: 2px;
+}
+.full_descrip_animal {
+    height: 119px;
+    width: 272px;
+}
+.button_to_home {
+    width: 174px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 65px;
+}
+.button_to_overex {
+    width: 242px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+.cat1 {
+    margin: 0 auto;
+    height: 613px;
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 22px;
+}
+.cat_lunatik {
+    height: 284px;
+    top: 12px;
+    margin-left: 2px;
+}
+.dog2 {
+    margin: 0 auto;
+    height: 613px;
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 22px;
+}
+.dog_gerda {
+    height: 284px;
+    top: 12px;
+    margin-left: 2px;
+}
+.prosmotr_vseh {
+    margin-left: -15px;
+    margin-bottom: 40px;
+}
+.link_seti {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.text_posty {
+    width: 300px;
+    height: 80px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    margin-left: -80px;
+    margin-bottom: 6px;
+}
+.icon_social {
+    display: inline-block;
+    margin-left: 14px;
+    margin-bottom: 54px;
+}
+.icon_social img {
+    width: 32px;
+    height: 32px;
+}
+.hand_money {
+    height: 46px;
+    margin-top: 295px;    
+}
+.finance {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 300px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 38px;
+    margin-bottom: 16px;
+}
+.finance_text {
+    width: 300px;
+    height: 89px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.info_rekvizity {
+    display: block;
+}
+.info_rekvizity__block {
+    margin: 0 auto;
+    margin-left: 30px;
+}
+.schet {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    width: 300px;
+    height: 24px;
+    margin-bottom: 16px;
+}
+.rekvizity {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.9;
+    width: 300px;
+    height: 151px;
+    margin-bottom: 16px;
+}
+.platezh {
+    width: 194px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 53px;
+    margin-bottom: 32px;
+}
+.info_adresa {
+       margin-left: 30px;
+}
+.korobochki {
+    font-size: 14px;
+    line-height: 19px;
+}
+ol {
+    font-size: 14px;
+    line-height: 20px;
+    width: 300px;
+    height: 240px;
+    margin-left: 15px;
+    margin-bottom: 64px;
+}
+.crest_no_crug {
+    height: 37px;
+    margin-top: 456px;
+    margin-bottom: 28px;
+}
+.h3_style__help {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 300px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.food {
+    width: 300px;
+    height: 220px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 30px;
+}
+.food_help__got {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.drugs {
+    width: 300px;
+    height: 120px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 30px;
+}
+.other_things {
+    width: 300px;
+    height: 206px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 30px;
+}
+.kuda_peredat {
+    margin-left: 71px;
+    margin-top: 15px;
+    margin-bottom: 54px;
+}
+.car_no_crug {
+    height: 47px;
+    margin-top: 328px;
+   }
+.auto_help {
+    width: 300px;
+    height: 120px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 30px;
+}
+.zayavka {
+    width: 194px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 85px;
+    margin-bottom: 50px;
+}
+.lapa_no_crug {
+    height: 46px;
+    margin-top: 245px;
+}
+.main_figure3 {
+    display: none;
+}
+.main_figure4 {
+    display: none;
+}
+.volunteer_block {
+    display: block;
+}
+.image_dog__volunteer {
+    content: url(../проект/картинки/dog\ volunteer\ 360.png);
+    width: 250px;
+    height: 212px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.text_volunteer {
+    margin-left: 0px;
+}
+.h3_style__volunteer {
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 127px;
+    margin-bottom: 18px;
+}
+.about_volunteer {
+    width: 300px;
+    height: 223px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 30px;
+}
+.zayavka_2 {
+    width: 193px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 85px;
+    margin-top: 15px;
+    margin-bottom: 48px;
+}
+.news_h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 300px;
+}
+.help_hvostik {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.hvostik_img {
+    width: 79px;
+    height: 79px;
+}
+.help_hvostik_1 {
+    width: 205px;
+    height: 215px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 17px;
+}
+.help_small_dogs {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.help_small_dogs img {
+    width: 79px;
+    height: 79px;
+}
+.help_small_dogs_1 {
+    width: 205px;
+    height: 157px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 17px;
+}
+.show_news {
+    margin-left: 77px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.content_about_us {
+    width: 299px;
+    height: 120px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 30px;
+    margin-top: 17px;
+}
+.contacts_h3 {
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 30px;
+}
+.contacts {
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 22px;
+    width: 299px;
+    height: 121px;
+    margin-bottom: 24px;
+}
+.link_contacts {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 211px;
+    height: 42px;
+}
+.icons_style2 {
+    margin-left: 242px;
+    margin-top: -40px;
+    margin-bottom: 29px;
+}
+.icon_social2 img {
+    width: 32px;
+    height: 32px;
+}
+.main_figure6 {
+    display: none;
+}
+.main_figure7 {
+    display: none;
+}
+.footer_dog {
+    content: url(../проект/картинки/footer\ dog\ 360.png);
+    height: 267px;
+    width: 360px;
+}
+.text_thanks {
+    content: url(../проект/картинки/Frame\ 95.png);
+    width: 250px;
+    height: 212px;
+    margin-top: -180px;
+    left: 0px;
+    mix-blend-mode: soft-light;
+}
+.footer {
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+.footer_list {
+    display: block;
+}
+.footer_list2 {
+    display: block;
+    margin-top: -110px;
+}
+.item_footer {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+}
+.item_footer2 {
+    margin-right: 30px;
+    line-height: 36px;
+}
+}
+
+
+
+
+
+
+@media (min-width:1920px){
+    .main_figure1 {
+        content: url(../проект/картинки/прямоугольник\ для\ 1920.png);
+        width: 592px;
+        height: 521px;
+    }
+    .dog_lapa {
+        left: 340px;
+    }
+    .main_figure2 {
+        left: 310px;
+    }
+    .main_cat_figure {
+        left: 630px;
+    }
+    .text3 {
+        margin-left: 440px;
+    }
+    .variants_to_help {
+        margin-left: 395px;
+        margin-right: 395px;
+    }
+    .text_variants_to_help {
+        margin-left: 395px;
+        margin-right: 395px;
+    }
+    .house_and_overexposure {
+        margin-left: 350px;
+        margin-right: 401px;
+    }
+    .block_anim {
+        margin-right: 388px;
+        margin-left: 387px;
+    }
+    .block_anim2 {
+        margin-right: 388px;
+        margin-left: 387px;
+    }
+    .line1 {
+        width: 807px;
+    }
+    .line2 {
+        width: 807px;
+    }
+    .dog1 {
+        margin-left: 0px;
+    }
+    .cat2 {
+        margin-left: 0px;
+    }
+    .link_seti {
+        margin-left: 390px;
+    }
+    
+    .finance_block {
+        margin-left: 300px;
+    }
+    .food_help_block {
+        margin-left: 300px;
+    }
+    .auto_block {
+        margin-left: 300px;
+    }
+    .main_figure3 {
+        content: url(../проект/картинки/прямоугольник\ для\ 1920.png);
+        width: 613px;
+        height: 521px;
+    }
+    .main_figure4 {
+        left: 335px;
+    }
+    .image_dog__volunteer {
+        left: 240px;
+    }
+    .text_volunteer {
+        margin-left: 280px;
+    }
+    .news_block {
+        margin-left: 250px;
+    }
+    .about_block {
+        margin-left: 250px;
+    }
+    .footer_dog {
+        content: url(../проект/картинки/footer\ dog\ 1920.png);
+        width: 1920px;
+        height: 741px;
+    }
+    .main_figure7 {
+        left: 500px;
+        top: 8515px;
+    }
+    .footer {
+        margin-left: 387px;
+        margin-right: 387px;
+    }
+}
